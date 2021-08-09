@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "Noto Sans TC";
+  src: url(font/NotoSansTC-Regular.otf);
+  src: url(font/NotoSansTC-Bold.otf);
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url(font/RobotoCondensed-Regular.ttf);
+  src: url(font/RobotoCondensed-Light.ttf);
+  src: url(font/RobotoCondensed-Bold.ttf);
+}
+
+:root {
+  --main-color: #3047c5;
+}
+
+.row {
+  margin: 0px;
+}
+.normal-ward-body {
+  position: relative;
+  height: 100%;
+}
+
+/*patient-info*/
+
+.patient-info {
+  margin-top: -20px;
+}
+
+.room-number {
+  color: var(--main-color);
+  font-size: 7.5rem;
+  font-weight: 700;
+  line-height: 0;
+}
+.patient-name {
+  font-family: "Noto Sans TC";
+  font-size: 6.5rem;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.patient-info .caption {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.patient-info .content {
+  font-weight: 700;
+  font-size: 2.8rem;
+  font-family: "Noto Sans TC";
+}
+
+/*hospital-info*/
+
+.hospital-info .caption {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1rem;
+}
+
+.hospital-info .content {
+  font-weight: 700;
+  font-size: 5.6rem;
+  font-family: "Noto Sans TC";
+  line-height: 6rem;
+}
+
+/*禁食禁飲*/
+
+.image-time {
+  position: relative;
+}
+
+.image-word {
+  font-size: 3rem;
+  font-weight: 700;
+  position: absolute;
+  bottom: 8px;
+  left: 32px;
+}
+
+/*schedule 時間表*/
+
+.schedule-block {
+  background-color: #e8f0ff;
+}
+
+.border-radius {
+  border-radius: 0.5rem;
+}
+.border-radius-lefty {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.schedule-block .caption {
+  color: #3047c5;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.last-time {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.pose img {
+  display: block;
+  margin: 0 auto;
+}
+
+.tube-feeding-time {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.tube-feeding img {
+  display: block;
+  margin: 30px auto 30px auto;
+}
+
+.tube-feeding-amount {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 3.5rem;
+}
+
+/*footer*/
+.footer {
+  background-image: linear-gradient(to left, #4273d8, #8296fc);
+  height: 90px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.footer .current-time {
+  font-size: 3.6rem;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.footer .date {
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.footer-btn {
+  font-size: 2rem;
+  position: absolute;
+  top: -25px;
+  right: 20px;
+  width: 30%;
+}
+
+.function-btn {
+  background-color: #f66a78;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 40px 0px 40px;
+  border-radius: 0.5rem;
+  box-shadow: inset 5px 5px 5px rgba(255, 255, 255, 0.5);
+}
+
+.function-btn:hover {
+  background-color: #da626e;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 40px 0px 40px;
+  border-radius: 0.5rem;
+  box-shadow: inset 5px 5px 5px rgba(255, 255, 255, 0.5);
+}
+
+.function-btn img {
+  max-width: 50px;
+  margin-bottom: 10px;
+}
