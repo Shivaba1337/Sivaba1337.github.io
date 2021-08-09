@@ -1,10 +1,184 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>wardBesideCard</title>
-  </head>
-  <body>
-    <h1>覺得厲害</h1>
-  </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="normalStyle.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+
+    <title>normalWard</title>
+</head>
+
+<body>
+    <div class="container-fluid normal-ward-body p-0">
+        <div class="infobar">
+            <div class="patient-info">
+                <div class="row align-items-center m-0">
+                    <div class="col-8 p-0 ">
+                        <div class="row align-items-center">
+                            <div class="col pr-0 room-number">10A-01-01</div>
+                            <div class="col p-0 patient-name">鞏小瑜章魚</div>
+                        </div>
+                    </div>
+                    <div class="col-4 p-0 ">
+                        <div class="row">
+                            <div class="col p-0">
+                                <div class="caption">
+                                    性別 │ 年齡
+                                </div>
+                                <div class="content">
+                                    女│36y8m
+                                </div>
+                            </div>
+                            <div class="col p-0">
+                                <div class="caption">
+                                    語言
+                                </div>
+                                <div class="content">
+                                    中英日台西法
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hospital-info">
+                <div class="row align-items-center m-0">
+                    <div class="col">
+                        <div class="caption">
+                            主治醫師
+                        </div>
+                        <div class="content">
+                            許碧鳳鳳
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="caption">
+                            住院醫師
+                        </div>
+                        <div class="content">
+                            王有利利
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="caption">
+                            護理師
+                        </div>
+                        <div class="content">
+                            賀靜萱萱
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="caption">
+                            入院日期
+                        </div>
+                        <div class="content">
+                            110/04/27
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row icons-block my-3 my-0">
+            <div class="col-8">
+                <div class="row">
+
+                    <div class="col p-0">
+                        <img src="images/normalWard/03不倒翁.jpg" alt="">
+                    </div>
+                    <div class="col p-0">
+                        <img src="images/normalWard/02接觸感染.jpg" alt="">
+                    </div>
+                    <div class="col p-0">
+                        <img src="images/normalWard/07-禁食禁飲.jpg" alt="" class="image-time">
+                        <div class="image-word">
+                            8:00-12:00
+                        </div>
+                    </div>
+                    <div class="col p-0">
+                        <img src="images/normalWard/04壓瘡注意.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col p-0">
+                        <img src="images/normalWard/05雙手禁治療.jpg" alt="">
+                    </div>
+                    <div class="col p-0">
+                        <img src="images/normalWard/06右腳禁治療.jpg" alt="">
+                    </div>
+                    <div class="col p-0">
+                        <img src="images/normalWard/01過敏.jpg" alt="">
+                    </div>
+                    <div class="col p-0">
+                        <img src="images/normalWard/08絕對臥床.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- schedule -->
+            <div class="col-4 p-0">
+                <div class="row justify-content-center">
+                    <div class="col p-2 mr-4 schedule-block border-radius">
+                        <div class="caption my-2">
+                            翻身時間表
+                        </div>
+                        <div class="pose">
+                            <img src="images/normalWard/左躺.png" alt="">
+                            <div class="last-time">08:00-12:00</div>
+                        </div>
+                        <div class="pose">
+                            <img src="images/normalWard/平躺.png" alt="">
+                            <div class="last-time">12:00-16:00</div>
+                        </div>
+                    </div>
+                    <div class="col p-2 schedule-block border-radius-lefty">
+                        <div class="caption my-2">
+                            管灌時間表
+                        </div>
+                        <div class="tube-feeding">
+                            <div class="tube-feeding-time">
+                                08-10-12
+                                14-16-18
+                            </div>
+                            <img src="images/normalWard/管灌.png" alt="">
+                            <div class="tube-feeding-amount">
+                                <div class="water">水 <span>200</span> c.c.</div>
+                                <div class="milk">奶 <span>200</span> c.c.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer m-0 align-items-center">
+            <div class="col-auto current-time">16:49:45</div>
+            <div class="col date">2021/04/17 星期三</div>
+            <div class="footer-btn row">
+                <div class="col mr-4 function-btn">
+                    <img src="images/normalWard/qrcode.png" alt="">
+                    衛教資訊
+                </div>
+                <div class="col function-btn">
+                    <img src="images/normalWard/bell.png" alt="">
+                    呼叫服務
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
